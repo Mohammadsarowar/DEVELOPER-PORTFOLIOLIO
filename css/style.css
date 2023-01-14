@@ -1,0 +1,214 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-primary{
+    color:tomato;
+}
+.mine-header{
+   background-color: #fff;
+    background-image:url(/images/header_bg.png),url(/images/developer.png);
+    background-position: bottom right,left;
+   
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+    
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    list-style: none;
+    margin: 0 10px;
+    
+}
+
+.nav-titel{
+    font-weight: 500;
+    font-size: 30px;
+}
+#stc{
+    color:tomato;
+    font-weight: 800;
+    font-size: 40px;
+
+}
+.btn,.btn-primary{
+    height: 40px;
+    background-color:tomato;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    transition: 0.5s;
+   
+}
+.btn:hover{
+    background-color: #fff;
+    color: tomato;
+}
+.banner{
+   margin:0 150px ;
+   display: flex;
+   align-items: center;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+}
+.banner-sub-title{
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 20px; 
+
+}
+.banner-div{
+    color: darkgrey;
+    margin-top: 10px;
+}
+.btn-primary{
+   margin: 20px 0;
+}
+.btn-primary:hover{
+     background-color: #fff;
+     color:tomato;
+}
+.button-1{
+    font-size: 20px;
+    padding: 5px 45px;
+    border: 1px solid tomato;
+    border-radius: 8px;
+    font-weight: 800;
+    color: tomato;  
+    transition: 0.5s;
+}
+.button-1:hover{
+    background-color: tomato;
+    color: #fff;
+    padding: 10px 50px;
+}
+main{
+    max-width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+}
+.about{
+  text-align: center;
+  margin-top:130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  width: 827px;
+  height: 288px;
+}
+.section-title{
+     margin-bottom: 30px;
+     font-size: 25px;
+     font-weight: 700;
+     text-align: center;
+     margin-bottom: 30px;
+}
+.section-div{
+    color:darkgrey;
+    font-size: 18px;
+}
+.about-info-continer{
+    display: flex;
+    line-height: 30px;
+    margin-top: 20px;
+    height: 60px;
+    width: 782px;
+    justify-content: space-around;
+ 
+}
+.info-title{
+    font-size: 20px;
+    font-weight:400;
+    color:darkgray;
+    width: 168px;
+    height: 30px;
+    margin: 0 auto; 
+}
+.info-description{
+   font-weight: 700;
+   line-height: 30px;
+   font-size: 20px;
+}
+.what-i-do{
+    margin-top: 130px;
+  
+   
+}
+.skills-container{
+    display: flex;
+    border-radius: 5px;
+    gap:24px;
+    
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill{
+    width:267px ;
+    max-height:377px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.section-title-1{
+    margin:80px auto;
+    text-align: center;
+}
+.resume-continer{
+    display: flex;
+    justify-content: space-around;
+}
+.resume-item{
+    width: 511px;
+    height: 130px;
+    margin: 10px 0;
+}
+.sub-title{
+    margin: 10px 0;
+    color: #757575;
+  
+}
+.description{
+    color: #757575;
+}
+.resume-title{
+    font-weight: 700;
+}
+.cv{
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 8px 30px;
+    background-color: tomato;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+
+}
+   
+   
+
+
